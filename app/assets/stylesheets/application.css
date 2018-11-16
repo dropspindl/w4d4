@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+header {
+  font-family: BookAntiqua;
+  font-size: 36px;
+  text-align: center;
+  color: Aquamarine;
+}
+
+body {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hnd01gaCiu89hpk4/videoblocks-parallel-blinking-diagonal-strips-on-a-gray-background-colored-stripes-place-for-text-business-background-seamless-loop_sedzcssdg_thumbnail-full01.png");
+  font-family: BookAntiqua;
+}
+
+.solid {
+  text-align: center;
+  border-radius: 10%;
+  /* border: 3px solid MidnightBlue;
+  background: Gainsboro; */
+  opacity: 50;
+  color: Indigo;
+  padding: 30px;
+  margin: auto;
+  width: 50%;
+
+
+}
